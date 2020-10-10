@@ -30,6 +30,18 @@ a:hover {
     text-align: left;
 }
 
+#musicheading {
+    color: #a8a8a8;
+    text-align: center;
+}
+
+#musicheading2 {
+    color: #a8a8a8;
+    padding-top: 25px;
+    text-align:center;
+
+}
+
 #codetitle {
     color: #a8a8a8;
     padding-top: 25px;
@@ -59,4 +71,9 @@ a:hover {
     background-color: #062433;
     padding-top: 25px;
     padding-bottom: 50px;
+}
+
+#gridwithpadding {
+    background-color: #021824;
+    padding-top: 25px;
 }
