@@ -3,13 +3,13 @@ body {
 }
 
 h1 {
-    text-align: center;
     color: white;
+    text-align: center;
 }
 
 h2{
-    text-align: center;
     color: #a8a8a8;
+    text-align: center;
 }
 
 #basicpara1 {
@@ -20,4 +20,9 @@ h2{
 
 #centeralign {
     text-align: center;
+}
+
+#slickborder{
+    color: white;
+    border-bottom: solid;
 }
