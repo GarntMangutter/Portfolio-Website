@@ -7,35 +7,52 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     color: #a8a8a8;
     text-align: center;
+}
+
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 #basicpara1 {
     color: white;
     padding-left: 100px ;
     padding-right: 100px ;
+    text-align: left;
+}
+
+#codetitle {
+    color: #a8a8a8;
+    padding-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+#codedescription {
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
 }
 
 #centeralign {
     text-align: center;
 }
 
-#slickborder{
+#slickborder {
     color: white;
     border-bottom: solid;
     padding-top: 25px;
 }
 
-#footnote{
+#footnote {
     background-color: #062433;
     padding-top: 25px;
     padding-bottom: 50px;
-}
-
-a:hover{
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
 }
