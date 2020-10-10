@@ -19,6 +19,13 @@ a:hover {
     text-decoration: underline;
 }
 
+.carousel {
+    padding-top: 25px;
+    width: 640px;
+    height: 1136px;
+    margin: auto;
+  }
+
 #basiclink {
     text-align: center;
 }
@@ -75,5 +82,9 @@ a:hover {
 
 #gridwithpadding {
     background-color: #021824;
+    padding-top: 25px;
+}
+
+#extrapadding25 {
     padding-top: 25px;
 }
