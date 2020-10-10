@@ -25,4 +25,17 @@ h2{
 #slickborder{
     color: white;
     border-bottom: solid;
+    padding-top: 25px;
+}
+
+#footnote{
+    background-color: #062433;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+a:hover{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
 }
