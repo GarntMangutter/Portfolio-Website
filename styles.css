@@ -12,6 +12,12 @@ h2{
     color: #a8a8a8;
 }
 
-p {
+#basicpara1 {
     color: white;
+    padding-left: 100px ;
+    padding-right: 100px ;
+}
+
+#centeralign {
+    text-align: center;
 }
