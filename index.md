@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Adaptive Scaling-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Extension Linking and Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title>Portfolio de Grant Gutterman</title>
+
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">The Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="musicpage.html">Music</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="workspage.html">Works</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+</head>
+
+<body>
+
+    <div class="jumbotron bg-dark text-white jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Grant Gutterman</h1>
+        </div>
+    </div>
+
+    <h1>Introduction</h1>
+    
+    <p id="centeralign">
+        <br><img src="pinecone_50.jpg" alt="pinecone" width="300" height="400" class="center">
+    </p>
+    
+    <p id="basicpara1"><br>Hello. I am Grant Gutterman and I am an 18 year old senior at Fern Creek High School. Currently I am learning computer science and hope when I attend college to be studying technology for a degree. I have been into computers since I was about 7 years old and have loved learning about them ever since. Another passion of mine is music production, as I produce and release music I have made through computer software. Music production has always had me in awe because of the wide variety of things you can do with technology fused with the entertainment I get from music.</p>
+
+    <a href="Grant Gutterman Resume.pdf"><div class="container" id="basiclink">Check Out My Resume!</div></a>
+
+    <div class="container" id="slickborder">
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="carouselphotos\cool.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="carouselphotos\headphone.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="carouselphotos\mirror.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="carouselphotos\yea.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container" id="extrapadding25">
+    </div>
+    
+    <div class="container" id="slickborder">
+    </div>
+
+    <div class="container" id="footnote">
+        <div class="row">
+            <div class="col-sm">
+                <a href="https://twitter.com/GuttermanGrant">
+                    <div class="container" id="basiclink">
+                        Twitter
+                    </div></a>
+            </div>
+            <div class="col-sm">
+                <a href="https://www.instagram.com/grantgutterman">
+                    <div class="container" id="basiclink">
+                    Instagram
+                    </div></a>
+            </div>
+            <div class="col-sm">
+                <a href="https://fanlink.to/garquo">
+                    <div class="container" id="basiclink">
+                    Other Platforms
+                    </div></a>
+            </div>
+            <div class="col-sm">
+                  <a href="grantgutterman@gmail.com">
+                    <div class="container" id="basiclink">
+                    Email
+                    </div></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
